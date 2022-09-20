@@ -12,9 +12,11 @@ public class MavenPracticeTest {
 		String url= System.getProperty("u");
 		System.out.println("browser name is-->>>" +browser);
 		System.out.println("url name is --->>>" +url);
+		System.out.println("mission passed");
 		 
 		WebDriverUtility web=new WebDriverUtility();
 		web.openBrowserwithApplication(browser, 10, url);
+		
 		
 	}
 }

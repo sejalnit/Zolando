@@ -38,6 +38,7 @@ public class TestNGPraticeTest {
     @Test
     public void testmthod2() {
     	System.out.println("test execute already");
+    	
     }
     
     
