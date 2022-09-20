@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.zalando.GenericUtility.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="zalando_online_session.Automate3TCByTestNG">
+        <methods>
+          <include name="automateaTestCase3"/>
+          <include name="methodsetup"/>
+          <include name="classSetUp"/>
+          <include name="classTearDown"/>
+          <include name="methodTeardown"/>
+        </methods>
+      </class> <!-- zalando_online_session.Automate3TCByTestNG -->
+      <class name="zalando_online_session.Automate2byTestNG">
+        <methods>
+          <include name="methodsetup"/>
+          <include name="classSetUp"/>
+          <include name="classTearDown"/>
+          <include name="automte2bytest"/>
+          <include name="methodTeardown"/>
+        </methods>
+      </class> <!-- zalando_online_session.Automate2byTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
